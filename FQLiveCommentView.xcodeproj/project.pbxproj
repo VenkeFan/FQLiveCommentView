@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		376F8F913EDAB9C92F6DA962 /* Pods_FQLiveCommentView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F36C89EE8DD7F913337CE318 /* Pods_FQLiveCommentView.framework */; };
+		B93F47E11F272C5700E6C4D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B93F47E01F272C5700E6C4D3 /* main.m */; };
+		B93F47E41F272C5700E6C4D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B93F47E31F272C5700E6C4D3 /* AppDelegate.m */; };
+		B93F47E71F272C5700E6C4D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B93F47E61F272C5700E6C4D3 /* ViewController.m */; };
+		B93F47EA1F272C5700E6C4D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B93F47E81F272C5700E6C4D3 /* Main.storyboard */; };
+		B93F47EC1F272C5700E6C4D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B93F47EB1F272C5700E6C4D3 /* Assets.xcassets */; };
+		B93F47EF1F272C5700E6C4D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B93F47ED1F272C5700E6C4D3 /* LaunchScreen.storyboard */; };
+		B93F47FA1F272C5800E6C4D3 /* FQLiveCommentViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B93F47F91F272C5800E6C4D3 /* FQLiveCommentViewTests.m */; };
+		B93F48051F272C5800E6C4D3 /* FQLiveCommentViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B93F48041F272C5800E6C4D3 /* FQLiveCommentViewUITests.m */; };
+		B93F481B1F272E8500E6C4D3 /* FQLiveBarrageContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = B93F48141F272E8500E6C4D3 /* FQLiveBarrageContentView.m */; };
+		B93F481C1F272E8500E6C4D3 /* FQLiveBarrageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B93F48161F272E8500E6C4D3 /* FQLiveBarrageView.m */; };
+		B93F481D1F272E8500E6C4D3 /* FQLiveBarrageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B93F48181F272E8500E6C4D3 /* FQLiveBarrageViewCell.m */; };
+		B93F481E1F272E8500E6C4D3 /* FQLiveCommentView.m in Sources */ = {isa = PBXBuildFile; fileRef = B93F481A1F272E8500E6C4D3 /* FQLiveCommentView.m */; };
+		B93F48221F2735E600E6C4D3 /* FQLiveCommentViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B93F48211F2735E600E6C4D3 /* FQLiveCommentViewModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B93F47F61F272C5800E6C4D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B93F47D41F272C5700E6C4D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B93F47DB1F272C5700E6C4D3;
+			remoteInfo = FQLiveCommentView;
+		};
+		B93F48011F272C5800E6C4D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B93F47D41F272C5700E6C4D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B93F47DB1F272C5700E6C4D3;
+			remoteInfo = FQLiveCommentView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		91BBF6E48F596AF6E45BF183 /* Pods-FQLiveCommentView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FQLiveCommentView.release.xcconfig"; path = "Pods/Target Support Files/Pods-FQLiveCommentView/Pods-FQLiveCommentView.release.xcconfig"; sourceTree = "<group>"; };
+		B93F47DC1F272C5700E6C4D3 /* FQLiveCommentView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FQLiveCommentView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B93F47E01F272C5700E6C4D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B93F47E21F272C5700E6C4D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B93F47E31F272C5700E6C4D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B93F47E51F272C5700E6C4D3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B93F47E61F272C5700E6C4D3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B93F47E91F272C5700E6C4D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B93F47EB1F272C5700E6C4D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B93F47EE1F272C5700E6C4D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B93F47F01F272C5800E6C4D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B93F47F51F272C5800E6C4D3 /* FQLiveCommentViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FQLiveCommentViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B93F47F91F272C5800E6C4D3 /* FQLiveCommentViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FQLiveCommentViewTests.m; sourceTree = "<group>"; };
+		B93F47FB1F272C5800E6C4D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B93F48001F272C5800E6C4D3 /* FQLiveCommentViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FQLiveCommentViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B93F48041F272C5800E6C4D3 /* FQLiveCommentViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FQLiveCommentViewUITests.m; sourceTree = "<group>"; };
+		B93F48061F272C5800E6C4D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B93F48131F272E8500E6C4D3 /* FQLiveBarrageContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FQLiveBarrageContentView.h; sourceTree = "<group>"; };
+		B93F48141F272E8500E6C4D3 /* FQLiveBarrageContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FQLiveBarrageContentView.m; sourceTree = "<group>"; };
+		B93F48151F272E8500E6C4D3 /* FQLiveBarrageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FQLiveBarrageView.h; sourceTree = "<group>"; };
+		B93F48161F272E8500E6C4D3 /* FQLiveBarrageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FQLiveBarrageView.m; sourceTree = "<group>"; };
+		B93F48171F272E8500E6C4D3 /* FQLiveBarrageViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FQLiveBarrageViewCell.h; sourceTree = "<group>"; };
+		B93F48181F272E8500E6C4D3 /* FQLiveBarrageViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FQLiveBarrageViewCell.m; sourceTree = "<group>"; };
+		B93F48191F272E8500E6C4D3 /* FQLiveCommentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FQLiveCommentView.h; sourceTree = "<group>"; };
+		B93F481A1F272E8500E6C4D3 /* FQLiveCommentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FQLiveCommentView.m; sourceTree = "<group>"; };
+		B93F48201F2735E600E6C4D3 /* FQLiveCommentViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FQLiveCommentViewModel.h; sourceTree = "<group>"; };
+		B93F48211F2735E600E6C4D3 /* FQLiveCommentViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FQLiveCommentViewModel.m; sourceTree = "<group>"; };
+		C33CDB81B4BDB2E41CD113A5 /* Pods-FQLiveCommentView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FQLiveCommentView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FQLiveCommentView/Pods-FQLiveCommentView.debug.xcconfig"; sourceTree = "<group>"; };
+		F36C89EE8DD7F913337CE318 /* Pods_FQLiveCommentView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FQLiveCommentView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B93F47D91F272C5700E6C4D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				376F8F913EDAB9C92F6DA962 /* Pods_FQLiveCommentView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B93F47F21F272C5800E6C4D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B93F47FD1F272C5800E6C4D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F23F7431040277082FBE16E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F36C89EE8DD7F913337CE318 /* Pods_FQLiveCommentView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3862787457E8B670E13F775F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C33CDB81B4BDB2E41CD113A5 /* Pods-FQLiveCommentView.debug.xcconfig */,
+				91BBF6E48F596AF6E45BF183 /* Pods-FQLiveCommentView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B93F47D31F272C5700E6C4D3 = {
+			isa = PBXGroup;
+			children = (
+				B93F47DE1F272C5700E6C4D3 /* FQLiveCommentView */,
+				B93F47F81F272C5800E6C4D3 /* FQLiveCommentViewTests */,
+				B93F48031F272C5800E6C4D3 /* FQLiveCommentViewUITests */,
+				B93F47DD1F272C5700E6C4D3 /* Products */,
+				3862787457E8B670E13F775F /* Pods */,
+				1F23F7431040277082FBE16E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B93F47DD1F272C5700E6C4D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B93F47DC1F272C5700E6C4D3 /* FQLiveCommentView.app */,
+				B93F47F51F272C5800E6C4D3 /* FQLiveCommentViewTests.xctest */,
+				B93F48001F272C5800E6C4D3 /* FQLiveCommentViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B93F47DE1F272C5700E6C4D3 /* FQLiveCommentView */ = {
+			isa = PBXGroup;
+			children = (
+				B93F481F1F2735CE00E6C4D3 /* ViewModel */,
+				B93F48121F272E8500E6C4D3 /* View */,
+				B93F47E21F272C5700E6C4D3 /* AppDelegate.h */,
+				B93F47E31F272C5700E6C4D3 /* AppDelegate.m */,
+				B93F47E51F272C5700E6C4D3 /* ViewController.h */,
+				B93F47E61F272C5700E6C4D3 /* ViewController.m */,
+				B93F47E81F272C5700E6C4D3 /* Main.storyboard */,
+				B93F47EB1F272C5700E6C4D3 /* Assets.xcassets */,
+				B93F47ED1F272C5700E6C4D3 /* LaunchScreen.storyboard */,
+				B93F47F01F272C5800E6C4D3 /* Info.plist */,
+				B93F47DF1F272C5700E6C4D3 /* Supporting Files */,
+			);
+			path = FQLiveCommentView;
+			sourceTree = "<group>";
+		};
+		B93F47DF1F272C5700E6C4D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B93F47E01F272C5700E6C4D3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B93F47F81F272C5800E6C4D3 /* FQLiveCommentViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				B93F47F91F272C5800E6C4D3 /* FQLiveCommentViewTests.m */,
+				B93F47FB1F272C5800E6C4D3 /* Info.plist */,
+			);
+			path = FQLiveCommentViewTests;
+			sourceTree = "<group>";
+		};
+		B93F48031F272C5800E6C4D3 /* FQLiveCommentViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B93F48041F272C5800E6C4D3 /* FQLiveCommentViewUITests.m */,
+				B93F48061F272C5800E6C4D3 /* Info.plist */,
+			);
+			path = FQLiveCommentViewUITests;
+			sourceTree = "<group>";
+		};
+		B93F48121F272E8500E6C4D3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B93F48191F272E8500E6C4D3 /* FQLiveCommentView.h */,
+				B93F481A1F272E8500E6C4D3 /* FQLiveCommentView.m */,
+				B93F48151F272E8500E6C4D3 /* FQLiveBarrageView.h */,
+				B93F48161F272E8500E6C4D3 /* FQLiveBarrageView.m */,
+				B93F48131F272E8500E6C4D3 /* FQLiveBarrageContentView.h */,
+				B93F48141F272E8500E6C4D3 /* FQLiveBarrageContentView.m */,
+				B93F48171F272E8500E6C4D3 /* FQLiveBarrageViewCell.h */,
+				B93F48181F272E8500E6C4D3 /* FQLiveBarrageViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B93F481F1F2735CE00E6C4D3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B93F48201F2735E600E6C4D3 /* FQLiveCommentViewModel.h */,
+				B93F48211F2735E600E6C4D3 /* FQLiveCommentViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B93F47DB1F272C5700E6C4D3 /* FQLiveCommentView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B93F48091F272C5800E6C4D3 /* Build configuration list for PBXNativeTarget "FQLiveCommentView" */;
+			buildPhases = (
+				C11E798BBB9DEAD262B87F5F /* [CP] Check Pods Manifest.lock */,
+				B93F47D81F272C5700E6C4D3 /* Sources */,
+				B93F47D91F272C5700E6C4D3 /* Frameworks */,
+				B93F47DA1F272C5700E6C4D3 /* Resources */,
+				FB78609B849AC283C93947F6 /* [CP] Embed Pods Frameworks */,
+				FC995D139E93A6FC6DE0371B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FQLiveCommentView;
+			productName = FQLiveCommentView;
+			productReference = B93F47DC1F272C5700E6C4D3 /* FQLiveCommentView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B93F47F41F272C5800E6C4D3 /* FQLiveCommentViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B93F480C1F272C5800E6C4D3 /* Build configuration list for PBXNativeTarget "FQLiveCommentViewTests" */;
+			buildPhases = (
+				B93F47F11F272C5800E6C4D3 /* Sources */,
+				B93F47F21F272C5800E6C4D3 /* Frameworks */,
+				B93F47F31F272C5800E6C4D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B93F47F71F272C5800E6C4D3 /* PBXTargetDependency */,
+			);
+			name = FQLiveCommentViewTests;
+			productName = FQLiveCommentViewTests;
+			productReference = B93F47F51F272C5800E6C4D3 /* FQLiveCommentViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B93F47FF1F272C5800E6C4D3 /* FQLiveCommentViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B93F480F1F272C5800E6C4D3 /* Build configuration list for PBXNativeTarget "FQLiveCommentViewUITests" */;
+			buildPhases = (
+				B93F47FC1F272C5800E6C4D3 /* Sources */,
+				B93F47FD1F272C5800E6C4D3 /* Frameworks */,
+				B93F47FE1F272C5800E6C4D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B93F48021F272C5800E6C4D3 /* PBXTargetDependency */,
+			);
+			name = FQLiveCommentViewUITests;
+			productName = FQLiveCommentViewUITests;
+			productReference = B93F48001F272C5800E6C4D3 /* FQLiveCommentViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B93F47D41F272C5700E6C4D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = fanqi;
+				TargetAttributes = {
+					B93F47DB1F272C5700E6C4D3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = V6R68WLKP9;
+						ProvisioningStyle = Automatic;
+					};
+					B93F47F41F272C5800E6C4D3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B93F47DB1F272C5700E6C4D3;
+					};
+					B93F47FF1F272C5800E6C4D3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B93F47DB1F272C5700E6C4D3;
+					};
+				};
+			};
+			buildConfigurationList = B93F47D71F272C5700E6C4D3 /* Build configuration list for PBXProject "FQLiveCommentView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B93F47D31F272C5700E6C4D3;
+			productRefGroup = B93F47DD1F272C5700E6C4D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B93F47DB1F272C5700E6C4D3 /* FQLiveCommentView */,
+				B93F47F41F272C5800E6C4D3 /* FQLiveCommentViewTests */,
+				B93F47FF1F272C5800E6C4D3 /* FQLiveCommentViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B93F47DA1F272C5700E6C4D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B93F47EF1F272C5700E6C4D3 /* LaunchScreen.storyboard in Resources */,
+				B93F47EC1F272C5700E6C4D3 /* Assets.xcassets in Resources */,
+				B93F47EA1F272C5700E6C4D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B93F47F31F272C5800E6C4D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B93F47FE1F272C5800E6C4D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C11E798BBB9DEAD262B87F5F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FB78609B849AC283C93947F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FQLiveCommentView/Pods-FQLiveCommentView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC995D139E93A6FC6DE0371B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FQLiveCommentView/Pods-FQLiveCommentView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B93F47D81F272C5700E6C4D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B93F481E1F272E8500E6C4D3 /* FQLiveCommentView.m in Sources */,
+				B93F48221F2735E600E6C4D3 /* FQLiveCommentViewModel.m in Sources */,
+				B93F47E71F272C5700E6C4D3 /* ViewController.m in Sources */,
+				B93F481B1F272E8500E6C4D3 /* FQLiveBarrageContentView.m in Sources */,
+				B93F481C1F272E8500E6C4D3 /* FQLiveBarrageView.m in Sources */,
+				B93F481D1F272E8500E6C4D3 /* FQLiveBarrageViewCell.m in Sources */,
+				B93F47E41F272C5700E6C4D3 /* AppDelegate.m in Sources */,
+				B93F47E11F272C5700E6C4D3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B93F47F11F272C5800E6C4D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B93F47FA1F272C5800E6C4D3 /* FQLiveCommentViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B93F47FC1F272C5800E6C4D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B93F48051F272C5800E6C4D3 /* FQLiveCommentViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B93F47F71F272C5800E6C4D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B93F47DB1F272C5700E6C4D3 /* FQLiveCommentView */;
+			targetProxy = B93F47F61F272C5800E6C4D3 /* PBXContainerItemProxy */;
+		};
+		B93F48021F272C5800E6C4D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B93F47DB1F272C5700E6C4D3 /* FQLiveCommentView */;
+			targetProxy = B93F48011F272C5800E6C4D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B93F47E81F272C5700E6C4D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B93F47E91F272C5700E6C4D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B93F47ED1F272C5700E6C4D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B93F47EE1F272C5700E6C4D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B93F48071F272C5800E6C4D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B93F48081F272C5800E6C4D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B93F480A1F272C5800E6C4D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C33CDB81B4BDB2E41CD113A5 /* Pods-FQLiveCommentView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V6R68WLKP9;
+				INFOPLIST_FILE = FQLiveCommentView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qi.fan.FQLiveCommentView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B93F480B1F272C5800E6C4D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91BBF6E48F596AF6E45BF183 /* Pods-FQLiveCommentView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V6R68WLKP9;
+				INFOPLIST_FILE = FQLiveCommentView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qi.fan.FQLiveCommentView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B93F480D1F272C5800E6C4D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FQLiveCommentViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qi.fan.FQLiveCommentViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FQLiveCommentView.app/FQLiveCommentView";
+			};
+			name = Debug;
+		};
+		B93F480E1F272C5800E6C4D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FQLiveCommentViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qi.fan.FQLiveCommentViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FQLiveCommentView.app/FQLiveCommentView";
+			};
+			name = Release;
+		};
+		B93F48101F272C5800E6C4D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FQLiveCommentViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qi.fan.FQLiveCommentViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FQLiveCommentView;
+			};
+			name = Debug;
+		};
+		B93F48111F272C5800E6C4D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FQLiveCommentViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qi.fan.FQLiveCommentViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FQLiveCommentView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B93F47D71F272C5700E6C4D3 /* Build configuration list for PBXProject "FQLiveCommentView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B93F48071F272C5800E6C4D3 /* Debug */,
+				B93F48081F272C5800E6C4D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B93F48091F272C5800E6C4D3 /* Build configuration list for PBXNativeTarget "FQLiveCommentView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B93F480A1F272C5800E6C4D3 /* Debug */,
+				B93F480B1F272C5800E6C4D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B93F480C1F272C5800E6C4D3 /* Build configuration list for PBXNativeTarget "FQLiveCommentViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B93F480D1F272C5800E6C4D3 /* Debug */,
+				B93F480E1F272C5800E6C4D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B93F480F1F272C5800E6C4D3 /* Build configuration list for PBXNativeTarget "FQLiveCommentViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B93F48101F272C5800E6C4D3 /* Debug */,
+				B93F48111F272C5800E6C4D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B93F47D41F272C5700E6C4D3 /* Project object */;
+}
